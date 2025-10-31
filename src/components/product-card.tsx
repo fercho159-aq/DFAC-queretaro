@@ -45,7 +45,7 @@ export function ProductCard({ product, searchParams }: ProductCardProps) {
         <Badge variant="secondary" className="absolute top-2 left-2">{product.category}</Badge>
       </CardHeader>
       <CardContent className="p-6 flex-grow">
-        <CardTitle className="text-xl font-semibold mb-2 leading-tight uppercase">
+        <CardTitle className="text-xl font-semibold mb-2 leading-tight capitalize">
           <Link href={productLink} className="hover:text-primary transition-colors">
             {product.name}
           </Link>

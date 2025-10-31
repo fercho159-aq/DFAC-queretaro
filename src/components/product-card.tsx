@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import type { Product } from '@/lib/data';
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
+import { toTitleCase } from '@/lib/utils';
 
 interface ProductCardProps {
   product: Product;
@@ -45,9 +46,9 @@ export function ProductCard({ product, searchParams }: ProductCardProps) {
         <Badge variant="secondary" className="absolute top-2 left-2">{product.category}</Badge>
       </CardHeader>
       <CardContent className="p-6 flex-grow">
-        <CardTitle className="text-xl font-semibold mb-2 leading-tight capitalize">
+        <CardTitle className="text-xl font-semibold mb-2 leading-tight">
           <Link href={productLink} className="hover:text-primary transition-colors">
-            {product.name}
+            {toTitleCase(product.name)}
           </Link>
         </CardTitle>
         <CardDescription>

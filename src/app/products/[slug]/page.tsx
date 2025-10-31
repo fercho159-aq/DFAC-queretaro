@@ -12,6 +12,7 @@ import path from 'path';
 import { ContactSection } from '@/components/contact-section';
 import { ProductCard } from '@/components/product-card';
 import { Suspense } from 'react';
+import { toTitleCase } from '@/lib/utils';
 
 // New component for related products
 function RelatedProducts({ products, searchParams }: { products: Product[], searchParams: { [key: string]: string | string[] | undefined } }) {
@@ -134,7 +135,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
           {/* Product Info */}
           <div>
             <Badge variant="secondary">{product.category}</Badge>
-            <h1 className="text-3xl md:text-4xl font-bold my-2">{product.name}</h1>
+            <h1 className="text-3xl md:text-4xl font-bold my-2">{toTitleCase(product.name)}</h1>
             <p className="text-3xl font-bold text-primary mb-4">
               Precio a cotizar
             </p>
@@ -257,5 +258,3 @@ export default async function ProductDetailPage({ params, searchParams }: { para
     </Suspense>
   );
 }
-
-    

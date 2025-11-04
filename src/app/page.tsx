@@ -85,8 +85,8 @@ const clientLogos = [
 const solutionsSlides = [
     {
         image: "/Image/Galeria/CARRUSEL-DFAC9-D5.jpg",
-        title: "Moños para cimbra",
-        hint: "formwork ties"
+        title: "Tubocimbra",
+        hint: "cardboard tube forms"
     },
     {
         image: "/Image/Galeria/CARRUSEL-DFAC11-D5.jpg",

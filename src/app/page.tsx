@@ -184,7 +184,7 @@ export default function Home() {
       <Dialog open={isUrgentDialogOpen} onOpenChange={setIsUrgentDialogOpen}>
         <DialogContent className="sm:max-w-md text-center">
             <DialogHeader>
-            <DialogTitle className="text-2xl font-bold font-headline text-primary">¿Necesitas Material de URGENCIA en Querétaro?</DialogTitle>
+            <DialogTitle className="text-2xl font-bold font-headline text-primary">¿Necesitas Material de URGENCIA en Querétaro o el Bajío?</DialogTitle>
             <DialogDescription className="mt-2 text-muted-foreground">
                 ¡No te preocupes! Entregamos en tu obra en menos de 24 horas. <br/> Contáctanos ahora mismo.
             </DialogDescription>
@@ -468,3 +468,5 @@ export default function Home() {
     </>
   );
 }
+
+    

@@ -208,7 +208,7 @@ export default function Home() {
                     <Mail className="w-6 h-6 text-primary mt-1" />
                     <div>
                         <h3 className="text-lg font-semibold text-left">Escríbenos</h3>
-                        <a href="mailto:ventas@cimbrayaccesorios.com.mx" className="text-primary font-semibold hover:underline text-left block">ventas@cimbrayaccesorios.com.mx</a>
+                        <a href="mailto:ventas.qro.dfac@gmail.com" className="text-primary font-semibold hover:underline text-left block">ventas.qro.dfac@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -468,5 +468,3 @@ export default function Home() {
     </>
   );
 }
-
-    

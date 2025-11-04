@@ -72,7 +72,7 @@ export function ContactSection() {
                         <div>
                             <h3 className="text-base md:text-lg font-semibold">Correo Electrónico</h3>
                             <p className="text-sm text-muted-foreground">Envíanos tus <b className="text-foreground">requerimientos y cotizaciones</b>.</p>
-                            <a href="mailto:ventas@cimbrayaccesorios.com.mx" className="text-sm text-primary font-semibold hover:underline">ventas@cimbrayaccesorios.com.mx</a>
+                            <a href="mailto:ventas.qro.dfac@gmail.com" className="text-sm text-primary font-semibold hover:underline">ventas.qro.dfac@gmail.com</a>
                         </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -91,7 +91,7 @@ export function ContactSection() {
                         </div>
                         <div>
                             <h3 className="text-base md:text-lg font-semibold">Sucursal Querétaro</h3>
-                            <p className="text-sm text-muted-foreground">Carr. Querétaro - San Luis Potosí km 17.5, 76220, Querétaro</p>
+                            <p className="text-sm text-muted-foreground">Prol. Bernardo Quintana 2481 ,Felipe Carrillo puerto, 76113 Santiago de Querétaro,Qro</p>
                             <p className="text-xs text-muted-foreground"><b className="text-foreground">Horario:</b> Lunes a Viernes de 9:00 a 18:00 hrs.</p>
                         </div>
                     </div>
@@ -115,5 +115,3 @@ export function ContactSection() {
       </div>
     );
 }
-
-    

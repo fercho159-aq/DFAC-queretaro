@@ -135,7 +135,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
           {/* Product Info */}
           <div>
             <Badge variant="secondary">{product.category}</Badge>
-            <h1 className="text-3xl md:text-4xl font-bold my-2">{toTitleCase(product.name)}</h1>
+            <h1 className="text-3xl md:text-4xl font-bold my-2" dangerouslySetInnerHTML={{ __html: product.name }} />
             <p className="text-3xl font-bold text-primary mb-4">
               Precio a cotizar
             </p>

@@ -48,7 +48,7 @@ export function ProductCard({ product, searchParams }: ProductCardProps) {
       <CardContent className="p-6 flex-grow">
         <CardTitle className="text-xl font-semibold mb-2 leading-tight">
           <Link href={productLink} className="hover:text-primary transition-colors">
-            {toTitleCase(product.name)}
+            <span dangerouslySetInnerHTML={{ __html: toTitleCase(product.name) }} />
           </Link>
         </CardTitle>
         <CardDescription>

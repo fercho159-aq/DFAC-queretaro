@@ -6436,7 +6436,7 @@
   },
   {
     "id": 5929,
-    "name": "PISTOLA  CALAFATEADORA CERRADA PARA SALCHICA",
+    "name": "PISTOLA  CALAFATEADORA CERRADA PARA SALCHICHA",
     "slug": "pistola-calafateadora-cerrada-para-salchica",
     "parent": 0,
     "type": "variable",
@@ -6520,7 +6520,7 @@
     "sold_individually": false,
     "add_to_cart": {
       "text": "Ver detalles",
-      "description": "Elige las opciones para &ldquo;PISTOLA  CALAFATEADORA CERRADA PARA SALCHICA&rdquo;",
+      "description": "Elige las opciones para &ldquo;PISTOLA  CALAFATEADORA CERRADA PARA SALCHICHA&rdquo;",
       "url": "https://cimbrayaccesorios.com.mx/producto/pistola-calafateadora-cerrada-para-salchica/",
       "minimum": 1,
       "maximum": 9999,

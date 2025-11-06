@@ -90,17 +90,17 @@ const solutionsSlides = [
     },
     {
         image: "/Image/Galeria/CARRUSEL-DFAC11-D5.jpg",
-        title: "Puntales para cimbra",
+        title: "Cuñas para Moños",
         hint: "shoring props"
     },
     {
         image: "/Image/Galeria/CARRUSEL-DFAC3-D5.jpg",
-        title: "Bandas de PVC",
+        title: "Moños",
         hint: "PVC waterstop"
     },
     {
         image: "/Image/Galeria/CARRUSEL-DFAC-D5.jpg",
-        title: "Cuñas para moño",
+        title: "Silletas",
         hint: "formwork wedges"
     }
 ];

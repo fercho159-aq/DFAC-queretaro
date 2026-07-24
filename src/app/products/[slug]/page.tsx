@@ -6,7 +6,8 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import Link from 'next/link';
-import { ArrowLeft, MessageSquare } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
+import { WhatsAppIcon } from '@/components/icons/whatsapp-icon';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { ContactSection } from '@/components/contact-section';
@@ -160,7 +161,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                 </Button>
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                     <Button size="lg" variant="secondary" className="w-full bg-green-500 hover:bg-green-600 text-white">
-                        <MessageSquare className="mr-2 h-5 w-5" /> Para entregas urgentes envíanos un WhatsApp
+                        <WhatsAppIcon className="mr-2 h-5 w-5" /> Para entregas urgentes envíanos un WhatsApp
                     </Button>
                 </a>
             </div>

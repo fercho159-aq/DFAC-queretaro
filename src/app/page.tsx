@@ -130,7 +130,7 @@ const heroSlides = [
 export default function Home() {
   const [featuredProducts, setFeaturedProducts] = React.useState<Product[]>([]);
   const [isUrgentDialogOpen, setIsUrgentDialogOpen] = React.useState(false);
-  const catalogPdfUrl = "/archivos/CATALOGO-DFAC_compressed.pdf";
+  const catalogPdfUrl = "/archivos/CATALOGO-2026.pdf";
 
   React.useEffect(() => {
     const fetchProducts = async () => {

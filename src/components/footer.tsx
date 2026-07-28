@@ -18,6 +18,17 @@ export function Footer() {
                 <Link href="#" className="text-muted-foreground hover:text-primary"><Instagram /></Link>
                 <Link href="#" className="text-muted-foreground hover:text-primary"><Linkedin /></Link>
             </div>
+            <div className="rounded-lg overflow-hidden border h-[180px]">
+              <iframe
+                title="Ubicación de DFAC Querétaro en Google Maps"
+                src="https://maps.google.com/maps?q=Prol.%20Bernardo%20Quintana%202481%2C%20Felipe%20Carrillo%20Puerto%2C%2076113%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro&z=15&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
           </div>
           <div>
             <h3 className="text-lg font-semibold text-foreground">Navegación</h3>

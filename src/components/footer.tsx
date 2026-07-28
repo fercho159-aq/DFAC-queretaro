@@ -47,7 +47,7 @@ export function Footer() {
             <ul className="mt-4 space-y-3">
               <li className="flex items-start space-x-2 text-muted-foreground">
                 <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
-                 <p>Prol. Bernardo Quintana 2481 ,Felipe Carrillo puerto, 76113 Santiago de Querétaro,Qro</p>
+                 <p>Prol. Bernardo Quintana 2481, Felipe Carrillo Puerto, 76113 Santiago de Querétaro, Qro.</p>
               </li>
               <li className="flex items-start space-x-2 text-muted-foreground">
                 <Phone className="h-5 w-5 text-primary mt-1 flex-shrink-0" />

@@ -92,7 +92,7 @@ export function ContactSection() {
                         </div>
                         <div>
                             <h3 className="text-base md:text-lg font-semibold">Sucursal Querétaro</h3>
-                            <p className="text-sm text-muted-foreground">Prol. Bernardo Quintana 2481 ,Felipe Carrillo puerto, 76113 Santiago de Querétaro,Qro</p>
+                            <p className="text-sm text-muted-foreground">Prol. Bernardo Quintana 2481, Felipe Carrillo Puerto, 76113 Santiago de Querétaro, Qro.</p>
                             <p className="text-xs text-muted-foreground"><b className="text-foreground">Horario:</b> Lunes a Viernes de 9:00 a 18:00 hrs.</p>
                         </div>
                     </div>

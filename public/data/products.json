@@ -1611,6 +1611,51 @@
         "sizes": "(max-width: 1280px) 100vw, 1280px",
         "name": "PUNTAL METALICO CONTAMOS CON STOCK PRODUCTO CON CERTIFICACION EUROPEA_DFAC",
         "alt": ""
+      },
+      {
+        "id": 9001,
+        "src": "/Image/puntal-metalico-bodega-puntales-vigas.png",
+        "thumbnail": "/Image/puntal-metalico-bodega-puntales-vigas.png",
+        "srcset": "",
+        "sizes": "(max-width: 1280px) 100vw, 1280px",
+        "name": "Puntales y vigas H20 en bodega DFAC Querétaro",
+        "alt": "Puntales metálicos extensibles y vigas H20 en bodega DFAC Querétaro"
+      },
+      {
+        "id": 9002,
+        "src": "/Image/puntal-metalico-220-400-apilados.png",
+        "thumbnail": "/Image/puntal-metalico-220-400-apilados.png",
+        "srcset": "",
+        "sizes": "(max-width: 1280px) 100vw, 1280px",
+        "name": "Puntales 220/400 apilados",
+        "alt": "Puntales metálicos extensibles 220/400 apilados en bodega DFAC Querétaro"
+      },
+      {
+        "id": 9003,
+        "src": "/Image/puntal-metalico-bases-detalle.png",
+        "thumbnail": "/Image/puntal-metalico-bases-detalle.png",
+        "srcset": "",
+        "sizes": "(max-width: 1280px) 100vw, 1280px",
+        "name": "Detalle de bases de puntales",
+        "alt": "Detalle de puntales metálicos mostrando bases de acero en bodega DFAC Querétaro"
+      },
+      {
+        "id": 9004,
+        "src": "/Image/puntal-metalico-bodega-panoramica.png",
+        "thumbnail": "/Image/puntal-metalico-bodega-panoramica.png",
+        "srcset": "",
+        "sizes": "(max-width: 1280px) 100vw, 1280px",
+        "name": "Bodega DFAC Querétaro panorámica",
+        "alt": "Vista panorámica de puntales metálicos en bodega DFAC Querétaro"
+      },
+      {
+        "id": 9005,
+        "src": "/Image/puntal-metalico-bases-apiladas.png",
+        "thumbnail": "/Image/puntal-metalico-bases-apiladas.png",
+        "srcset": "",
+        "sizes": "(max-width: 1280px) 100vw, 1280px",
+        "name": "Bases de acero apiladas",
+        "alt": "Bases de acero para puntales metálicos apiladas en bodega DFAC Querétaro"
       }
     ],
     "categories": [

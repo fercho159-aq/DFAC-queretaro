@@ -538,6 +538,59 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                     Resistencia de Carga: 100 Kg. Muros de concreto con acero de refuerzo al centro. Distanciador vertical, cuenta con un clip interno que aseguran la óptima sujeción del acero. Garantizan recubrimientos exactos, y proporcionan acabados estéticos sin marcas aparentes.
                   </p>
                 </div>
+              ) : product.slug === 'tubo-cimbra3-mts-redondo' ? (
+                <div className="product-description font-sans">
+                  <p className="text-sm md:text-base text-slate-800 mb-4">
+                    El sonotubo para cimbra es un molde cilíndrico fabricado con capas de cartón laminado, diseñado para facilitar el colado de columnas circulares de concreto u hormigón armado. Es una alternativa práctica y eficiente a los sistemas tradicionales de cimbra de madera o metal.
+                  </p>
+                  <p className="text-sm md:text-base text-slate-800 mb-4 font-semibold">
+                    Todos nuestros sonotubos disponibles miden 3 metros de alto.
+                  </p>
+                  <p className="text-sm md:text-base text-slate-800 mb-4">
+                    Disponible en diferentes diámetros y espesores, el sonotubo se adapta a los requerimientos de cada proyecto, ofreciendo una solución funcional para obtener columnas con un acabado uniforme y una geometría definida.
+                  </p>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-center">
+                      <p className="text-xs text-slate-500 mb-1">Material</p>
+                      <p className="text-base font-bold text-slate-800">Cartón laminado</p>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-center">
+                      <p className="text-xs text-slate-500 mb-1">Largo</p>
+                      <p className="text-base font-bold text-slate-800">3 metros</p>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-center">
+                      <p className="text-xs text-slate-500 mb-1">Diámetros</p>
+                      <p className="text-base font-bold text-slate-800">15 a 100 cm</p>
+                    </div>
+                  </div>
+
+                  <div className="mt-6 border border-slate-200 rounded-lg overflow-hidden">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="bg-slate-100">
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Largo (Mts)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Diámetro (Cms)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Grosor (Mm)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Peso (Kg)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">15</td><td className="px-3 py-2 text-slate-800">3.8</td><td className="px-3 py-2 text-slate-800">2.66</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">20</td><td className="px-3 py-2 text-slate-800">3.8</td><td className="px-3 py-2 text-slate-800">3.58</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">25</td><td className="px-3 py-2 text-slate-800">4.4</td><td className="px-3 py-2 text-slate-800">5.60</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">30</td><td className="px-3 py-2 text-slate-800">4.4</td><td className="px-3 py-2 text-slate-800">6.68</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">35</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">9.35</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">40</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">10.51</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">45</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">15.71</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">50</td><td className="px-3 py-2 text-slate-800">5.7</td><td className="px-3 py-2 text-slate-800">18.47</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">60</td><td className="px-3 py-2 text-slate-800">6.3</td><td className="px-3 py-2 text-slate-800">26.37</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">8.2</td><td className="px-3 py-2 text-slate-800">36.96</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">80</td><td className="px-3 py-2 text-slate-800">8.2</td><td className="px-3 py-2 text-slate-800">46.99</td></tr>
+                        <tr><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">100</td><td className="px-3 py-2 text-slate-800">11</td><td className="px-3 py-2 text-slate-800">58.63</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
               ) : product.slug === 'capuchon-de-seguridad' ? (
                 <div className="product-description font-sans">
                   <p className="text-sm md:text-base text-slate-800 mb-4">
@@ -720,6 +773,63 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                           <td className="px-4 py-2 font-bold text-slate-800">8.1</td>
                           <td className="px-4 py-2 font-bold text-slate-800">12.3</td>
                         </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ) : product.slug === 'tubo-cimbra3-mts-redondo' ? (
+                <div className="product-description font-sans">
+                  <div className="bg-blue-600 inline-block px-4 py-2 mb-4 text-center rounded">
+                    <span className="text-sm md:text-base text-white font-medium">Cartón laminado · 3 metros de alto · Diámetros de 15 a 100 cm</span>
+                  </div>
+
+                  <h3 className="text-base md:text-lg font-bold text-slate-800 mt-4 mb-3">Ventajas del Sonotubo para Cimbra</h3>
+                  <ul className="space-y-2 mb-6">
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-700">
+                      <span className="text-blue-600 mt-1">●</span>
+                      <span><b>Acabado liso y uniforme:</b> la superficie interior del tubo ofrece un terminado circular definido y parejo en las columnas.</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-700">
+                      <span className="text-blue-600 mt-1">●</span>
+                      <span><b>Fácil retiro:</b> tras el fraguado, el sonotubo puede pelarse o cortarse sin esfuerzo para desencofrarlo.</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-700">
+                      <span className="text-blue-600 mt-1">●</span>
+                      <span><b>Ligero y manejable:</b> su peso reducido facilita el transporte, almacenamiento y colocación en obra.</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-700">
+                      <span className="text-blue-600 mt-1">●</span>
+                      <span><b>Variedad de diámetros:</b> disponible desde 15 cm hasta 100 cm, adaptándose a múltiples necesidades de proyecto.</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-700">
+                      <span className="text-blue-600 mt-1">●</span>
+                      <span><b>Sin necesidad de desmoldante:</b> la composición del cartón laminado permite desmoldar sin aplicar productos adicionales.</span>
+                    </li>
+                  </ul>
+
+                  <div className="mt-6 border border-slate-200 rounded-lg overflow-hidden">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="bg-slate-100">
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Largo (Mts)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Diámetro (Cms)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Grosor (Mm)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Peso (Kg)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">15</td><td className="px-3 py-2 text-slate-800">3.8</td><td className="px-3 py-2 text-slate-800">2.66</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">20</td><td className="px-3 py-2 text-slate-800">3.8</td><td className="px-3 py-2 text-slate-800">3.58</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">25</td><td className="px-3 py-2 text-slate-800">4.4</td><td className="px-3 py-2 text-slate-800">5.60</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">30</td><td className="px-3 py-2 text-slate-800">4.4</td><td className="px-3 py-2 text-slate-800">6.68</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">35</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">9.35</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">40</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">10.51</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">45</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">15.71</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">50</td><td className="px-3 py-2 text-slate-800">5.7</td><td className="px-3 py-2 text-slate-800">18.47</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">60</td><td className="px-3 py-2 text-slate-800">6.3</td><td className="px-3 py-2 text-slate-800">26.37</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">8.2</td><td className="px-3 py-2 text-slate-800">36.96</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">80</td><td className="px-3 py-2 text-slate-800">8.2</td><td className="px-3 py-2 text-slate-800">46.99</td></tr>
+                        <tr><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">100</td><td className="px-3 py-2 text-slate-800">11</td><td className="px-3 py-2 text-slate-800">58.63</td></tr>
                       </tbody>
                     </table>
                   </div>
@@ -1531,6 +1641,76 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                   </Button>
                 </div>
               )}
+            </div>
+          )}
+
+          {/* Tubo para cimbra (Sonotubo) - Detailed info sections below the grid */}
+          {product.slug === 'tubo-cimbra3-mts-redondo' && (
+            <div className="mt-16 space-y-12">
+              {/* ¿Cómo está fabricado? */}
+              <section>
+                <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-4">¿Cómo está fabricado el Sonotubo?</h2>
+                <p className="text-sm md:text-base text-slate-700 leading-relaxed mb-3">
+                  El sonotubo se fabrica enrollando varias capas de cartón kraft impregnado con adhesivos resistentes a la humedad, formando un cilindro rígido. Este proceso de laminación le confiere resistencia mecánica suficiente para soportar la presión del concreto durante el vaciado, manteniendo la forma circular sin deformarse.
+                </p>
+                <p className="text-sm md:text-base text-slate-700 leading-relaxed">
+                  La superficie interior lisa del tubo garantiza un acabado uniforme en la columna, mientras que el exterior puede presentar un acabado natural del cartón o un recubrimiento adicional dependiendo del fabricante.
+                </p>
+              </section>
+
+              {/* Aplicaciones */}
+              <section>
+                <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-4">Aplicaciones del Sonotubo</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+                    <h3 className="font-semibold text-slate-800 mb-2">Columnas circulares</h3>
+                    <p className="text-sm text-slate-600">Formación de columnas redondas de concreto en edificaciones residenciales, comerciales e industriales.</p>
+                  </div>
+                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+                    <h3 className="font-semibold text-slate-800 mb-2">Pilotes y cimentaciones</h3>
+                    <p className="text-sm text-slate-600">Moldeo de pilotes de concreto para cimentaciones profundas y estructuras de soporte.</p>
+                  </div>
+                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+                    <h3 className="font-semibold text-slate-800 mb-2">Postes y elementos decorativos</h3>
+                    <p className="text-sm text-slate-600">Fabricación de postes de alumbrado, bolardos y elementos arquitectónicos con acabado cilíndrico.</p>
+                  </div>
+                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+                    <h3 className="font-semibold text-slate-800 mb-2">Obras de infraestructura</h3>
+                    <p className="text-sm text-slate-600">Construcción de ductos, registros y elementos cilíndricos en obras de infraestructura urbana.</p>
+                  </div>
+                </div>
+              </section>
+
+              {/* Información técnica completa */}
+              <section>
+                <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-4">Información Técnica Completa</h2>
+                <div className="border border-slate-200 rounded-lg overflow-hidden">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="bg-slate-100">
+                        <th className="px-3 py-2 text-left font-semibold text-slate-700">Largo (Mts)</th>
+                        <th className="px-3 py-2 text-left font-semibold text-slate-700">Diámetro (Cms)</th>
+                        <th className="px-3 py-2 text-left font-semibold text-slate-700">Grosor (Mm)</th>
+                        <th className="px-3 py-2 text-left font-semibold text-slate-700">Peso (Kg)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">15</td><td className="px-3 py-2 text-slate-800">3.8</td><td className="px-3 py-2 text-slate-800">2.66</td></tr>
+                      <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">20</td><td className="px-3 py-2 text-slate-800">3.8</td><td className="px-3 py-2 text-slate-800">3.58</td></tr>
+                      <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">25</td><td className="px-3 py-2 text-slate-800">4.4</td><td className="px-3 py-2 text-slate-800">5.60</td></tr>
+                      <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">30</td><td className="px-3 py-2 text-slate-800">4.4</td><td className="px-3 py-2 text-slate-800">6.68</td></tr>
+                      <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">35</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">9.35</td></tr>
+                      <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">40</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">10.51</td></tr>
+                      <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">45</td><td className="px-3 py-2 text-slate-800">5</td><td className="px-3 py-2 text-slate-800">15.71</td></tr>
+                      <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">50</td><td className="px-3 py-2 text-slate-800">5.7</td><td className="px-3 py-2 text-slate-800">18.47</td></tr>
+                      <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">60</td><td className="px-3 py-2 text-slate-800">6.3</td><td className="px-3 py-2 text-slate-800">26.37</td></tr>
+                      <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">8.2</td><td className="px-3 py-2 text-slate-800">36.96</td></tr>
+                      <tr className="border-b"><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">80</td><td className="px-3 py-2 text-slate-800">8.2</td><td className="px-3 py-2 text-slate-800">46.99</td></tr>
+                      <tr><td className="px-3 py-2 text-slate-800">3</td><td className="px-3 py-2 text-slate-800">100</td><td className="px-3 py-2 text-slate-800">11</td><td className="px-3 py-2 text-slate-800">58.63</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
             </div>
           )}
 

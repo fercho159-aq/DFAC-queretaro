@@ -65,6 +65,9 @@ const FICHAS_TECNICAS: Record<string, string[]> = {
   'silleta-h-de-4-puntos': [
     '/archivos/fichas-tecnicas/ficha-tecnica-silleta-h-4-puntos.pdf',
   ],
+  'silleta-f': [
+    '/archivos/fichas-tecnicas/ficha-tecnica-silleta-f.pdf',
+  ],
 };
 
 // New component for related products
@@ -631,6 +634,36 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                     Se utiliza en todo tipo de losas, trabes y contratrabes, prefabricados, tilt-ups y post-tensados.
                   </p>
                 </div>
+              ) : product.slug === 'silleta-f' ? (
+                <div className="product-description font-sans">
+                  <p className="text-sm md:text-base text-slate-800 mb-4">
+                    Separador multifuncional, fuerte y económico. Su amplia base le proporciona gran estabilidad y apoyo. Cuenta con dos diferentes alturas de recubrimiento (2.0 cm y 2.5 cm) en una misma pieza, lo que lo convierte en una solución práctica y versátil.
+                  </p>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-center">
+                      <p className="text-xs text-slate-500 mb-1">Carga máxima</p>
+                      <p className="text-base font-bold text-slate-800">250 Kg</p>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-center">
+                      <p className="text-xs text-slate-500 mb-1">Calibre de acero</p>
+                      <p className="text-base font-bold text-slate-800">Varilla hasta 3/4&quot;</p>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-center">
+                      <p className="text-xs text-slate-500 mb-1">Recubrimiento</p>
+                      <p className="text-base font-bold text-slate-800">2.0 y 2.5 cm</p>
+                    </div>
+                  </div>
+                  <h4 className="text-base font-bold text-slate-800 mb-3">Aplicaciones</h4>
+                  <p className="text-sm md:text-base text-slate-700 mb-4">
+                    Todo tipo de losas, colados en sitio, trabes y contratrabes. Cuando ya se tiene listo el armado, se colocan las silletas bajo la varilla inferior o la superior, dependiendo del recubrimiento de concreto deseado, cuidando que el acero quede bien soportado.
+                  </p>
+                  <ul className="space-y-2 mb-4">
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-800"><span className="text-blue-600 mt-0.5 flex-shrink-0">✓</span><span>Diseño multifuncional con dos alturas en una sola pieza</span></li>
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-800"><span className="text-blue-600 mt-0.5 flex-shrink-0">✓</span><span>Amplia base para mayor estabilidad en superficies firmes o poco compactadas</span></li>
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-800"><span className="text-blue-600 mt-0.5 flex-shrink-0">✓</span><span>Ideal para losas, trabes, contratrabes, prefabricados, tilt-ups y post-tensados</span></li>
+                    <li className="flex items-start gap-2 text-sm md:text-base text-slate-800"><span className="text-blue-600 mt-0.5 flex-shrink-0">✓</span><span>Evita desplazamientos durante el colado</span></li>
+                  </ul>
+                </div>
               ) : product.slug === 'tubo-cimbra3-mts-redondo' ? (
                 <div className="product-description font-sans">
                   <p className="text-sm md:text-base text-slate-800 mb-4">
@@ -928,6 +961,15 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                   </div>
                   <p className="text-sm md:text-base text-slate-800 mb-4">
                     Gran diseño y estabilidad, sobre un eje tiene dos puntos de soporte para el acero. Excelente rendimiento en el concreto y agregados gruesos. Superficie de contacto mínima, ideal para acabados aparentes. Se utiliza en todo tipo de losas, trabes y contratrabes, prefabricados, tilt-ups y post-tensados.
+                  </p>
+                </div>
+              ) : product.slug === 'silleta-f' ? (
+                <div className="product-description font-sans">
+                  <div className="bg-blue-600 inline-block px-4 py-2 mb-4 text-center rounded">
+                    <span className="text-sm md:text-base text-white font-medium">Carga máx. 250 Kg · Varilla hasta 3/4&quot; · Recubrimiento 2.0 y 2.5 cm</span>
+                  </div>
+                  <p className="text-sm md:text-base text-slate-800 mb-4">
+                    Es un separador multifuncional diseñado para brindar estabilidad y precisión en el armado de estructuras de concreto. Gracias a su amplia base, ofrece un excelente apoyo en superficies firmes o poco compactadas, evitando desplazamientos durante el colado. Cuenta con dos alturas de recubrimiento (2.0 cm y 2.5 cm) en una misma pieza, lo que lo convierte en una solución práctica y versátil para todo tipo de losas, colados en sitio, trabes y contratrabes.
                   </p>
                 </div>
               ) : product.slug === 'tubo-cimbra3-mts-redondo' ? (

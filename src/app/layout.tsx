@@ -43,15 +43,15 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
         
-        {/* <!-- Google tag (gtag.js) --> */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-T74VLVQB70"></Script>
+        {/* Google Analytics 4 — propiedad exclusiva QRO */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-R55MMMCF7B"></Script>
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-T74VLVQB70');
+            gtag('config', 'G-R55MMMCF7B');
           `}
         </Script>
       </head>

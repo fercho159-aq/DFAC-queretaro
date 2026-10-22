@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   title: 'DFAC - Accesorios para Cimbra en Querétaro y el Bajío',
   description: 'Soluciones y accesorios para cimbra con entrega en 24 horas en Querétaro y toda la región del Bajío.',
   keywords: ['cimbra queretaro', 'andamios queretaro', 'construccion bajio', 'accesorios para cimbra el bajio', 'apuntalamiento queretaro'],
+  verification: {
+    google: [
+      'VcHiJDttxnnmOnWj3cIRHbGRTyJvEMO2iKMqcroZ_a0',
+      'myqCGczfCZokKKlmAGdR-W-GS-4JC8IGNLlng50KB5I',
+    ],
+  },
 };
 
 export default function RootLayout({

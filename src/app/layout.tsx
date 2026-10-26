@@ -8,14 +8,24 @@ import Script from 'next/script';
 import { FloatingActionButtons } from '@/components/floating-action-buttons';
 
 export const metadata: Metadata = {
-  title: 'DFAC - Accesorios para Cimbra en Querétaro y el Bajío',
-  description: 'Soluciones y accesorios para cimbra con entrega en 24 horas en Querétaro y toda la región del Bajío.',
-  keywords: ['cimbra queretaro', 'andamios queretaro', 'construccion bajio', 'accesorios para cimbra el bajio', 'apuntalamiento queretaro'],
+  metadataBase: new URL('https://dfacparacimbra.com.mx'),
+  title: {
+    default: 'DFAC - Accesorios para Cimbra en Querétaro y el Bajío',
+    template: '%s | DFAC Accesorios para Cimbra Querétaro',
+  },
+  description: 'Venta de accesorios para cimbra, puntales, silletas, cuñas, desmoldante y productos para concreto en Querétaro y el Bajío. Entrega en 24 horas.',
+  keywords: ['cimbra queretaro', 'andamios queretaro', 'construccion bajio', 'accesorios para cimbra queretaro', 'puntales queretaro', 'silletas queretaro'],
   verification: {
     google: [
       'VcHiJDttxnnmOnWj3cIRHbGRTyJvEMO2iKMqcroZ_a0',
       'myqCGczfCZokKKlmAGdR-W-GS-4JC8IGNLlng50KB5I',
     ],
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'es_MX',
+    siteName: 'DFAC - Accesorios para Cimbra Querétaro',
+    description: 'Venta de accesorios para cimbra, puntales, silletas y productos para concreto en Querétaro y el Bajío. Entrega en 24 horas.',
   },
 };
 
@@ -27,6 +37,47 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'LocalBusiness',
+              name: 'DFAC - Accesorios para Cimbra Querétaro',
+              description: 'Venta de accesorios para cimbra, puntales, silletas, cuñas, desmoldante y productos para concreto en Querétaro y el Bajío.',
+              url: 'https://dfacparacimbra.com.mx',
+              telephone: ['+524422517169', '+524422517168', '+524421550415'],
+              email: 'ventas@cimbrayaccesorios.com.mx',
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: 'Prol. Bernardo Quintana 2481, Bod. 15',
+                addressLocality: 'Querétaro',
+                addressRegion: 'Querétaro',
+                postalCode: '76090',
+                addressCountry: 'MX',
+              },
+              openingHoursSpecification: [
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                  opens: '09:00',
+                  closes: '18:00',
+                },
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: 'Saturday',
+                  opens: '09:00',
+                  closes: '14:00',
+                },
+              ],
+              sameAs: [
+                'https://www.facebook.com/share/1GYpQ8pWLK/',
+                'https://www.instagram.com/dfac_cimbra',
+                'https://www.tiktok.com/@accesorios.dfac',
+              ],
+            }),
+          }}
+        />
         {/* Google Tag Manager */}
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`

@@ -453,7 +453,6 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                         { href: "/products/tirante-tipo-mono", img: "/Image/mono-portada-new.jpeg", name: "Moños para cimbra", desc: "Tirante para sujeción de cimbra" },
                         { href: "/products/tirante-tipo-mono-con-rondana", img: "/Image/neopreno-portada.png", name: "Moño con neopreno", desc: "Mayor sellado e impermeabilidad" },
                         { href: "/products/cuna-de-acero", img: "/Image/cuna-portada.jpeg", name: "Cuñas de acero", desc: "Fijación firme del moño en la cimbra" },
-                        { href: "/products/cunas-para-mono-de-cimbra", img: "/Image/cuna-portada.jpeg", name: "Cuñas para moño", desc: "Complemento para sistema de moño" },
                         { href: "/products/barra-roscada-2", img: "/Image/barra-portada.jpeg", name: "Barra Roscada", desc: "Barra de acero cold rolled de 5/8\"" },
                         { href: "/products/tuerca-mariposa-con-base", img: "/Image/tuerca-portada.jpeg", name: "Tuerca Mariposa con Base", desc: "Fijación segura para la barra roscada" },
                       ].map((item) => (
@@ -657,25 +656,29 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                     </div>
                   </div>
 
-                  <div className="mt-6 border border-slate-200 rounded-lg overflow-hidden">
+                  <div className="mt-6 border border-slate-200 rounded-lg overflow-hidden overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-slate-100">
-                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Medida de recubrimiento</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Clave</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Recubrimiento de Concreto (cm)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Piezas por Empaque</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Peso Pieza (grs)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Peso Empaque (Kgs)</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">2.5 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">4 cm</td></tr>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">5 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">6.5 cm</td></tr>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">7.5 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">9 cm</td></tr>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">10 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">11.5 cm</td></tr>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">12.5 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">14 cm</td></tr>
-                        <tr><td className="px-3 py-2 text-slate-800">15 cm</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH100</td><td className="px-3 py-2 text-slate-800">2.5</td><td className="px-3 py-2 text-slate-800">1000</td><td className="px-3 py-2 text-slate-800">11.5</td><td className="px-3 py-2 text-slate-800">11.7</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH150</td><td className="px-3 py-2 text-slate-800">4.0</td><td className="px-3 py-2 text-slate-800">400</td><td className="px-3 py-2 text-slate-800">21.0</td><td className="px-3 py-2 text-slate-800">8.6</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH200</td><td className="px-3 py-2 text-slate-800">5.0</td><td className="px-3 py-2 text-slate-800">300</td><td className="px-3 py-2 text-slate-800">28.0</td><td className="px-3 py-2 text-slate-800">8.6</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH250</td><td className="px-3 py-2 text-slate-800">6.5</td><td className="px-3 py-2 text-slate-800">250</td><td className="px-3 py-2 text-slate-800">42.0</td><td className="px-3 py-2 text-slate-800">10.7</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH300</td><td className="px-3 py-2 text-slate-800">7.5</td><td className="px-3 py-2 text-slate-800">225</td><td className="px-3 py-2 text-slate-800">46.0</td><td className="px-3 py-2 text-slate-800">10.5</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH350</td><td className="px-3 py-2 text-slate-800">9.0</td><td className="px-3 py-2 text-slate-800">200</td><td className="px-3 py-2 text-slate-800">50.0</td><td className="px-3 py-2 text-slate-800">10.2</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH400</td><td className="px-3 py-2 text-slate-800">10.0</td><td className="px-3 py-2 text-slate-800">150</td><td className="px-3 py-2 text-slate-800">65.0</td><td className="px-3 py-2 text-slate-800">9.9</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH450</td><td className="px-3 py-2 text-slate-800">11.5</td><td className="px-3 py-2 text-slate-800">90</td><td className="px-3 py-2 text-slate-800">67.0</td><td className="px-3 py-2 text-slate-800">6.2</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH500</td><td className="px-3 py-2 text-slate-800">12.5</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">84.0</td><td className="px-3 py-2 text-slate-800">6.0</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH550</td><td className="px-3 py-2 text-slate-800">14.0</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">86.0</td><td className="px-3 py-2 text-slate-800">6.2</td></tr>
+                        <tr><td className="px-3 py-2 text-slate-800 font-medium">SH600</td><td className="px-3 py-2 text-slate-800">15.0</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">103.0</td><td className="px-3 py-2 text-slate-800">7.4</td></tr>
                       </tbody>
                     </table>
                   </div>
@@ -1009,25 +1012,29 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                     </li>
                   </ul>
 
-                  <div className="mt-6 border border-slate-200 rounded-lg overflow-hidden">
+                  <div className="mt-6 border border-slate-200 rounded-lg overflow-hidden overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="bg-slate-100">
-                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Medida de recubrimiento</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Clave</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Recubrimiento de Concreto (cm)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Piezas por Empaque</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Peso Pieza (grs)</th>
+                          <th className="px-3 py-2 text-left font-semibold text-slate-700">Peso Empaque (Kgs)</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">2.5 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">4 cm</td></tr>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">5 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">6.5 cm</td></tr>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">7.5 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">9 cm</td></tr>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">10 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">11.5 cm</td></tr>
-                        <tr className="border-b"><td className="px-3 py-2 text-slate-800">12.5 cm</td></tr>
-                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800">14 cm</td></tr>
-                        <tr><td className="px-3 py-2 text-slate-800">15 cm</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH100</td><td className="px-3 py-2 text-slate-800">2.5</td><td className="px-3 py-2 text-slate-800">1000</td><td className="px-3 py-2 text-slate-800">11.5</td><td className="px-3 py-2 text-slate-800">11.7</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH150</td><td className="px-3 py-2 text-slate-800">4.0</td><td className="px-3 py-2 text-slate-800">400</td><td className="px-3 py-2 text-slate-800">21.0</td><td className="px-3 py-2 text-slate-800">8.6</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH200</td><td className="px-3 py-2 text-slate-800">5.0</td><td className="px-3 py-2 text-slate-800">300</td><td className="px-3 py-2 text-slate-800">28.0</td><td className="px-3 py-2 text-slate-800">8.6</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH250</td><td className="px-3 py-2 text-slate-800">6.5</td><td className="px-3 py-2 text-slate-800">250</td><td className="px-3 py-2 text-slate-800">42.0</td><td className="px-3 py-2 text-slate-800">10.7</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH300</td><td className="px-3 py-2 text-slate-800">7.5</td><td className="px-3 py-2 text-slate-800">225</td><td className="px-3 py-2 text-slate-800">46.0</td><td className="px-3 py-2 text-slate-800">10.5</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH350</td><td className="px-3 py-2 text-slate-800">9.0</td><td className="px-3 py-2 text-slate-800">200</td><td className="px-3 py-2 text-slate-800">50.0</td><td className="px-3 py-2 text-slate-800">10.2</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH400</td><td className="px-3 py-2 text-slate-800">10.0</td><td className="px-3 py-2 text-slate-800">150</td><td className="px-3 py-2 text-slate-800">65.0</td><td className="px-3 py-2 text-slate-800">9.9</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH450</td><td className="px-3 py-2 text-slate-800">11.5</td><td className="px-3 py-2 text-slate-800">90</td><td className="px-3 py-2 text-slate-800">67.0</td><td className="px-3 py-2 text-slate-800">6.2</td></tr>
+                        <tr className="border-b"><td className="px-3 py-2 text-slate-800 font-medium">SH500</td><td className="px-3 py-2 text-slate-800">12.5</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">84.0</td><td className="px-3 py-2 text-slate-800">6.0</td></tr>
+                        <tr className="border-b bg-slate-50"><td className="px-3 py-2 text-slate-800 font-medium">SH550</td><td className="px-3 py-2 text-slate-800">14.0</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">86.0</td><td className="px-3 py-2 text-slate-800">6.2</td></tr>
+                        <tr><td className="px-3 py-2 text-slate-800 font-medium">SH600</td><td className="px-3 py-2 text-slate-800">15.0</td><td className="px-3 py-2 text-slate-800">70</td><td className="px-3 py-2 text-slate-800">103.0</td><td className="px-3 py-2 text-slate-800">7.4</td></tr>
                       </tbody>
                     </table>
                   </div>

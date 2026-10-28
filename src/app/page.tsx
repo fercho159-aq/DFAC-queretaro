@@ -42,18 +42,23 @@ const differentiators = [
 
 const testimonials = [
   {
-    name: "Constructora del Bajío",
-    quote: "La calidad de los puntales y la velocidad de entrega de DFAC en Querétaro no tienen comparación. Son nuestro proveedor de confianza.",
+    name: "Roberto Reyes V.",
+    quote: "Excelente Servicio, gran variedad de productos, trato ejemplar, eficiencia, entrega rápida. Recomendado como uno de los mejores proveedores.",
     rating: 5,
   },
   {
-    name: "Ing. Roberto Morales",
-    quote: "El equipo de DFAC siempre está dispuesto a asesorarte. Gracias a ellos, optimizamos nuestros costos de apuntalamiento en un 15%.",
+    name: "Nehme Basila",
+    quote: "Excelente servicio, el material de separadores es de buena calidad y muy amable la atención.",
     rating: 5,
   },
   {
-    name: "ARQ. Sofia Castillo",
-    quote: "Los andamios son robustos y seguros. Su servicio en el Bajío es rápido y confiable, un gran aliado para nuestros proyectos.",
+    name: "Distribuidora de Maderas y Triplay Querétaro",
+    quote: "Excelente servicio, entregan en tiempo y forma y tienen amplio stock de materiales y excelente precio.",
+    rating: 5,
+  },
+  {
+    name: "Jose Antonio Rodriguez Ibarra",
+    quote: "Desde que estamos en el proyecto de loma dorada hemos trabajado de la mano con DFAC y con su colaboración la obra no para. Adriana se compromete y apoya con su buena actitud y servicio.",
     rating: 5,
   },
 ];

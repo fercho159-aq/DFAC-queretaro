@@ -35,7 +35,7 @@ const beneficios = [
   {
     icon: CheckCircle,
     title: 'Seguridad',
-    description: 'Sistema anti aplastamiento de manos y gancho de seguridad Ø14 mm entre tubo interior y exterior.',
+    description: 'Sistema antiaplastamiento de manos y gancho de seguridad Ø14 mm entre tubo interior y exterior.',
   },
 ];
 

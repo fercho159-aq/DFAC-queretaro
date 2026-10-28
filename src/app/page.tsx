@@ -5,7 +5,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Check, HardHat, PackageSearch, ShieldCheck, ShoppingCart, Star, Wrench, ArrowRight, Phone, Mail, Zap, Handshake } from 'lucide-react';
+import { Check, HardHat, MessageSquare, PackageSearch, ShieldCheck, ShoppingCart, Star, Wrench, ArrowRight, Phone, Mail, Zap, Handshake } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/icons/whatsapp-icon';
 import Image from 'next/image';
 import { ProductCard } from '@/components/product-card';
@@ -417,9 +417,26 @@ export default function Home() {
                 </Card>
               ))}
             </div>
+          <div className="text-center mt-12 space-y-4">
+            <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-6 py-3 rounded-full">
+              <MessageSquare className="w-5 h-5" />
+              <span className="font-semibold">¿Ya has comprado con nosotros? Déjanos una reseña en nuestro sitio web</span>
+            </div>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-4">
+              <Button asChild size="lg" variant="outline">
+                <Link href="/contact">Conviértete en Nuestro Próximo Caso de Éxito</Link>
+              </Button>
+              <Button asChild size="lg" variant="default">
+                <a href="https://g.page/r/CfGBV8-oDBtxEBM/review" target="_blank" rel="noopener noreferrer">
+                  <Star className="w-4 h-4 mr-2" />
+                  Dejar Reseña en Google
+                </a>
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
-      
+
       {/* How it Works Section */}
       <section className="py-20 bg-card">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">

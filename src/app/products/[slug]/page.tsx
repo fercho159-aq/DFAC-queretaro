@@ -250,7 +250,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                 <>
                   <p className="text-xs text-slate-500 text-center italic mt-2">* La compra del cabezal no incluye la viga, puntal ni base estabilizadora. Consulta nuestros productos complementarios.</p>
                   <div className="mt-4">
-                    <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                    <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                       {[
                         { href: "https://www.dfacparacimbra.com.mx/viga-h20", img: "/Image/Viga-H20/viga-h20-fondo-blanco.png", name: "Viga H20", desc: "Viga de madera laminada para sistemas de cimbra" },
@@ -273,7 +273,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
               {/* Productos complementarios para moño con rondana */}
               {product.slug === 'tirante-tipo-mono-con-rondana' && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                  <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                   <Carousel opts={{ align: "start", loop: true }} className="w-full">
                     <CarouselContent className="-ml-3">
                       {[
@@ -301,7 +301,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
               {/* Productos complementarios para moño normal */}
               {product.slug === 'tirante-tipo-mono' && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                  <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                   <Carousel opts={{ align: "start", loop: true }} className="w-full">
                     <CarouselContent className="-ml-3">
                       {[
@@ -329,7 +329,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
               {/* Productos complementarios - carrusel debajo de imágenes */}
               {(product.slug === 'barra-roscada-2' || product.slug === 'tuerca-mariposa-con-base' || product.slug === 'tubo-para-barra-roscada') && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                  <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                   <Carousel opts={{ align: "start", loop: true }} className="w-full">
                     <CarouselContent className="-ml-3">
                       {[
@@ -358,7 +358,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
               {/* Productos complementarios para disco separador */}
               {product.slug === 'disco-separador-para-muro-de-concreto' && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                  <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                   <Carousel opts={{ align: "start", loop: true }} className="w-full">
                     <CarouselContent className="-ml-3">
                       {[
@@ -387,7 +387,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
               {/* Productos complementarios para cuñas de acero */}
               {product.slug === 'cuna-de-acero' && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                  <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                   <Carousel opts={{ align: "start", loop: true }} className="w-full">
                     <CarouselContent className="-ml-3">
                       {[
@@ -415,7 +415,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
               {/* Productos complementarios para cono */}
               {product.slug === 'cono-para-cimbra' && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                  <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                   <Carousel opts={{ align: "start", loop: true }} className="w-full">
                     <CarouselContent className="-ml-3">
                       {[
@@ -446,7 +446,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
               {/* Productos complementarios para cono para moño */}
               {product.slug === 'cono-para-mono-de-cimbra' && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                  <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                   <Carousel opts={{ align: "start", loop: true }} className="w-full">
                     <CarouselContent className="-ml-3">
                       {[
@@ -476,7 +476,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
               {/* Productos complementarios para banda de PVC */}
               {product.slug === 'banda-de-pvc-negra-ojillada' && (
                 <div className="mt-6">
-                  <h3 className="text-lg font-bold text-slate-800 mb-3">Productos complementarios que te harían falta!</h3>
+                  <h3 className="text-lg font-bold text-slate-800 mb-3">¡Productos complementarios que te harían falta!</h3>
                   <Carousel opts={{ align: "start", loop: true }} className="w-full">
                     <CarouselContent className="-ml-3">
                       {[
@@ -638,7 +638,7 @@ function ProductDetailsClient({ product, relatedProducts, searchParams }: { prod
                     </li>
                     <li className="flex items-start gap-2 text-sm md:text-base text-slate-700">
                       <span className="text-blue-600 mt-1">●</span>
-                      <span>Se utiliza en todo tipo de losas, trabes y contra trabes, prefabricados, tilt-ups y post-tensados (se puede aplicar para piso)</span>
+                      <span>Se utiliza en todo tipo de losas, trabes y contratrabes, prefabricados, tilt-ups y post-tensados (se puede aplicar para piso)</span>
                     </li>
                   </ul>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">

@@ -1,6 +1,7 @@
 
 
 import Image from 'next/image';
+import type { Metadata } from 'next';
 import { Product, ProductImage, Attribute, AttributeTerm } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -15,6 +16,53 @@ import { Suspense } from 'react';
 import { WhatsAppButton } from './WhatsAppButton';
 import { CertificacionDIN } from './CertificacionDIN';
 import { ZoomableImage } from './ImageZoom';
+
+async function getProductBySlug(slug: string) {
+  const jsonDirectory = path.join(process.cwd(), 'public', 'data');
+  const fileContents = await fs.readFile(path.join(jsonDirectory, 'products.json'), 'utf8');
+  const products: any[] = JSON.parse(fileContents);
+  return products.find((p: any) => p.slug === slug) || null;
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const product = await getProductBySlug(slug);
+  if (!product) return { title: 'Producto no encontrado' };
+
+  const siteUrl = 'https://www.dfacparacimbra.com.mx';
+
+  const cleanDesc = (product.description || '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 155);
+
+  const fallbackDesc = `${product.name} — venta y distribución en Querétaro con entrega inmediata. Cotiza en línea.`;
+  const description = cleanDesc || fallbackDesc;
+
+  const ogImage = product.images?.[0]?.src
+    ? `${siteUrl}${product.images[0].src}`
+    : `${siteUrl}/Image/og-default.png`;
+
+  return {
+    title: `${product.name} | DFAC Accesorios para Cimbra Querétaro`,
+    description,
+    openGraph: {
+      title: `${product.name} | DFAC Accesorios para Cimbra Querétaro`,
+      description,
+      url: `${siteUrl}/products/${slug}`,
+      siteName: 'DFAC Accesorios para Cimbra Querétaro',
+      images: [{ url: ogImage, width: 800, height: 800, alt: product.name }],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${product.name} | DFAC Querétaro`,
+      description,
+      images: [ogImage],
+    },
+  };
+}
 
 const FICHAS_TECNICAS: Record<string, string[]> = {
   'barra-roscada-2': [

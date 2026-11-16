@@ -177,6 +177,9 @@ const FICHAS_TECNICAS: Record<string, string[]> = {
   'vibrador-para-concreto-externo-wacker-neuson-dfac': [
     '/archivos/fichas-tecnicas/ficha-vibrador-externo-wacker-neuson-ar26-qro.pdf',
   ],
+  'vibrador-para-concreto-de-alta-frecuencia-i-spyder-dfac': [
+    '/archivos/fichas-tecnicas/ficha-vibrador-i-spyder-qro.pdf',
+  ],
 };
 
 const PRODUCT_VIDEOS: Record<string, { src: string; title: string }[]> = {

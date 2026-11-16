@@ -1332,13 +1332,14 @@
     "review_count": 0,
     "images": [
       {
-        "id": 8151,
-        "src": "/Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC.jpg",
-        "thumbnail": "/Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC-300x300.jpg",
-        "srcset": "/Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC.jpg 1280w, /Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC-300x300.jpg 300w, /Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC-1024x1024.jpg 1024w, /Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC-150x150.jpg 150w, /Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC-768x768.jpg 768w, /Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC-720x720.jpg 720w, /Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC-600x600.jpg 600w, /Image/PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i-SPYDER.-DFAC-100x100.jpg 100w",
-        "sizes": "(max-width: 1280px) 100vw, 1280px",
-        "name": "PORTADA-DE-VIBRADOR-PARA-CONCRETO-DE-ALTA-FRECUENCIA-i&#8212;SPYDER.-DFAC",
-        "alt": ""
+        "id": 1000,
+        "src": "/Image/vibrador-i-spyder-1.png",
+        "name": "vibrador-i-spyder-1"
+      },
+      {
+        "id": 1001,
+        "src": "/Image/vibrador-i-spyder-2.png",
+        "name": "vibrador-i-spyder-2"
       }
     ],
     "categories": [
